@@ -1,1 +1,2 @@
-
+name: Run Python Beep, on: workflow_dispatch,
+jobs: generate-beep,runs-on:ubuntu-latest, steps: checkout repository, setup Python 3.12, run python scripts/generate_beep.py
